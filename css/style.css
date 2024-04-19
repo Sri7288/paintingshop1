@@ -61,9 +61,9 @@ body {
 
 /*header section*/
 .hero_area {
-  height: 98vh;
+  height: 100vh;
   position: relative;
-  background-image: url(../images/paint-bg1.jpeg);
+  background-image: url(../images/ac-banner10.jpg);
   background-size: cover;
   background-position: bottom;
 }
@@ -91,10 +91,10 @@ body {
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 15px;
-  margin: 10px 20px;
+  margin: 10px 30px;
   color: #ffffff;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 .custom_nav-container .navbar-nav .nav-item.active .nav-link, .custom_nav-container .navbar-nav .nav-item:hover .nav-link {
@@ -135,7 +135,7 @@ a:focus {
 }
 
 .navbar-brand span {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
@@ -163,10 +163,10 @@ a:focus {
 
 .custom_nav-container .navbar-toggler span {
   display: block;
-  width: 35px;
+  width: 30px;
   height: 4px;
   background-color: #ffffff;
-  margin: 7px 0;
+  margin: 45px 0;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
@@ -207,12 +207,13 @@ a:focus {
 
 .quote_btn-container a {
   color: #ffffff;
-  margin-right: 25px;
+  margin-right: 30px;
 }
 
 .quote_btn-container a img {
   width: 25px;
-  margin: 0 25px;
+  margin: 0 10px;
+  color: #ffffff;
 }
 
 /*end header section*/
@@ -242,11 +243,11 @@ a:focus {
 }
 
 .slider_section .detail_box {
-  color: #fff;
+  color: yellow;
 }
 
 .slider_section .detail_box h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
   margin-bottom: 30px;
 }
@@ -905,4 +906,8 @@ a:focus {
 
 .heading_container{
   background-color: #d8bf36;
+}
+
+.h1 class{
+  color: #d80b0b;
 }
